@@ -1,0 +1,176 @@
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <title>welcome to my site!</title>
+  <link href="./main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-liquid-glass" style="background-color: rgba(255, 255, 255, 0.25)">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/images/beef_4.webp" width="30" height="30" />
+        Mice
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item btn-nxehover">
+            <a class="nav-link active" aria-current="page" id="homebutton">Home</a>
+          </li>
+          <li class="nav-item btn-nxehover">
+            <a class="nav-link" id="projectsbutton">Projects</a>
+          </li>
+          <li class="nav-item btn-nxehover">
+            <a class="nav-link" id="creditsbutton">Credits</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="card mb-3 mx-auto bg-liquid-glass" style="max-width: 650px; display: grid; place-content: center;" id="home">
+    <div class="row g-0 align-items-center">
+      <div class="col-md-4">
+        <img src="https://cdn.discordapp.com/avatars/261844435757694978/11b51f58b2f22edec16b7aaaec59bb99.webp?size=1024" class="img-fluid rounded-start" alt="beef from dispatch" />
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 class="card-title">
+            hey, i'm mice.
+          </h4>
+          <ul class="list-group list-group-flush" style="--bs-list-group-bg: transparent; --bs-list-group-border-color: transparent;">
+            <li class="list-group-item">16 years old</li>
+            <li class="list-group-item">they/he</li>
+            <li class="list-group-item">non binary</li>
+            <li class="list-group-item">graphics designer and programmer</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://discordapp.com/users/261844435757694978" class="card-link"><i class="bi bi-discord"></i></a>
+            <a href="https://youtube.com/@miceoroni" class="card-link"><i class="bi bi-youtube"></i></a>
+            <a href="https://steamcommunity.com/id/miceoroni996/" class="card-link"><i class="bi bi-steam"></i></a>
+            <a href="https://www.instagram.com/miceoroni/" class="card-link"><i class="bi bi-instagram"></i></a>
+            <a href="https://x.com/miceoroni" class="card-link"><i class="bi bi-twitter"></i></a>
+            <a href="https://github.com/miceoroni" class="card-link"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div style="display: none; max-width: 960px;" class="card mb-3 bg-liquid-glass mx-auto" id="projects">
+  <div class="col-md-12 align-items-center">
+      <h4 class="card-title">Projects</h4></div>
+        <div class="col-md-12">
+          <div class="card-group bg-liquid-glass mx-auto" id="projects">
+            <div class="card">
+              <img src="./assets/images/weatherscan.png" class="card-img-top" alt="Weatherscan v2 by Mist Weather Media">
+              <div class="card-body">
+                <h5 class="card-title">Weatherscan v2</h5>
+                <p class="card-text">Helped with making the map style in Mapbox, overseeing the radar portion of the simulator</p>
+                <a href="https://github.com/MistWeatherMedia/weatherscan-v2"><i class="bi bi-github"></i></a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Clash Royale Lookup</h5>
+                <p class="card-text">Created using C# (ASP.NET).</p>
+                <a href="https://github.com/miceoroni/ClashRoyaleLookup"><i class="bi bi-github"></i></a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">TVCLI</h5>
+                <p class="card-text">Inspired by nezTV/ntn, made in C#</p>
+                <a href="https://github.com/miceoroni/TVCLI"><i class="bi bi-github"></i></a>
+            </div>
+        </div>
+  </div>
+</div>
+</div>
+<div class="row g-0 align-items-center mx-auto" id="credits" style="display: none">
+      <div class="card mb-3 align-items-center mx-auto bg-liquid-glass" style="max-width: 960px">
+        <div class="col-md-12">
+          <div class="card-body">
+            <h4 class="card-title">Credits</h4>
+            <div class="list-group list-group-flush">
+              <li class="list-group-item">
+                <a href="#">Microsoft for the NXE sounds used</a>
+              </li>
+              <li class="list-group-item">
+                <a href="#">Bootstrap for their amazing framework</a>
+              </li>
+              <li class="list-group-item">
+                <a href="#">Dispatch for the PFP</a>
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <script>
+    const nxeHovers = document.querySelectorAll('.btn-nxehover');
+    
+    const nxeHoverSound = new Audio('./assets/sounds/btn_Focus.wav');
+    
+    const nxeClickSound = new Audio('./assets/sounds/btn_Select.wav')
+    
+    nxeHovers.forEach(nxeHover => {
+      nxeHover.addEventListener('mouseenter', () => {
+        nxeHoverSound.play();
+      });
+    
+      nxeHover.addEventListener('mouseleave', () => {
+        nxeHoverSound.pause();
+        nxeHoverSound.currentTime = 0;
+      });
+
+      nxeHover.addEventListener('mousedown', () => {
+        nxeClickSound.currentTime = 0;
+        nxeClickSound.play();
+      });
+    });
+
+    const homebutton = document.getElementById("homebutton");
+    const homediv = document.getElementById("home");
+
+    const projectsbutton = document.getElementById("projectsbutton");
+    const projectsdiv = document.getElementById("projects");
+
+    const creditsbutton = document.getElementById("creditsbutton");
+    const creditsdiv = document.getElementById("credits");
+
+    homebutton.addEventListener("click", () => {
+      if (homediv.style.display === "none") {
+        homediv.style.display = "block";
+        projectsdiv.style.display = "none";
+        creditsdiv.style.display = "none";
+      } else {
+        homediv.style.display = "none";
+      }
+    });
+
+    projectsbutton.addEventListener("click", () => {
+      if (projectsdiv.style.display === "none") {
+        projectsdiv.style.display = "flex";
+        creditsdiv.style.display = "none";
+        homediv.style.display = "none";
+      } else {
+        projectsdiv.style.display = "none";
+      }
+    });
+
+    creditsbutton.addEventListener("click", () => {
+      if (creditsdiv.style.display === "none") {
+        creditsdiv.style.display = "block";
+        projectsdiv.style.display = "none";
+        homediv.style.display = "none";
+      } else {
+        creditsdiv.style.display = "none";
+      }
+    });
+  </script>
+</body>
