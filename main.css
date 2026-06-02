@@ -27,6 +27,31 @@ body {
 }
 
 
+#home {
+    transform: scale(0.95);
+    opacity: 0;
+    transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
+}
+
+#home.visible {
+    transform: scale(1);
+    opacity: 1;
+}
+
+#projects, #credits {
+    transform: scale(0.95);
+    opacity: 0;
+    transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
+}
+
+#projects.visible, #credits.visible {
+    transform: scale(1);
+    opacity: 1;
+}
+
+#home, #projects, #credits {
+    margin-top: 10px;
+}
 
 @keyframes gradient {
     0% {
@@ -37,5 +62,14 @@ body {
     }
     100% {
         background-position: 0% 50%;
+    }
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
     }
 }
