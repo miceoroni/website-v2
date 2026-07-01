@@ -53,6 +53,13 @@ body {
     margin-top: 10px;
 }
 
+#projects .card-img-top {
+height: 210px;
+width: 100%;
+object-fit: cover;
+object-position: center;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
