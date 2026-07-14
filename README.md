@@ -12,7 +12,7 @@ A revision of my previous website, which was available at miceoroni.lol.
 
 ## Demo
 
-Available at https://miceoroni.lol
+Available at https://miceoroni.xyz
 
 
 ## Run Locally
